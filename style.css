@@ -1,0 +1,22 @@
+body {  
+  background: #edcffc;
+  color: rgba(0,0,0,0.8);
+  font-family: sans-serif;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #421559;
+    color: rgba(255,255,255,0.8);
+  }
+}
